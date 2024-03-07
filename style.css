@@ -20,7 +20,7 @@ header {
   overflow: hidden;
 }
 
-img {
+header img {
   width: 100vw;
 }
 
@@ -34,23 +34,31 @@ main {
   color: white;
 }
 
-h2 {
-  scale: 0.84;
-  margin: 0.4em 0;
+.title-container {
+  display: flex;
+  min-width: 300px;
+  justify-content: space-between;
+}
+
+.profile-picture {
+  width: 64px;
+  border: solid 1px;
+  border-radius: 50%;
 }
 
 .email-container {
   display: flex;
   border: solid 0.8px;
   border-radius: 16px;
-  margin: 0.8em 0;
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
   padding: 0 0.8em;
   background-color: rgba(255, 254, 254, 0.1);
 }
 
 #email {
   border-right: solid 0.5px;
-  padding: 0.8em;
+  padding: 0.6em;
 }
 
 #copy-button {
@@ -58,7 +66,7 @@ h2 {
   background: none;
   border: none;
   margin-left: 1.2em;
-  scale: 1.2;
+  scale: 1.4;
 }
 
 #copy-icon {
@@ -68,7 +76,7 @@ h2 {
 li {
   display: flex;
   justify-content: center;
-  margin: 1.6em;
+  margin: 1.6em 0;
 }
 
 a {
